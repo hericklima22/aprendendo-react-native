@@ -4,4 +4,6 @@
 
 - 1º dia: configurado o ambiente de desenvolvimento
 - 2º dia: tentando resolver um erro do npx init
-- 3ª dia: procrastinação pura; respondendo a issue do trabalho de MDS
+- 3º dia: procrastinação pura; respondendo a issue do trabalho de MDS
+- 4º dia: sem commit
+- 5º dia: sem vontade de codar
