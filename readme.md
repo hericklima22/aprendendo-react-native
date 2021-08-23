@@ -7,3 +7,4 @@
 - 3º dia: procrastinação pura; respondendo a issue do trabalho de MDS
 - 4º dia: sem commit
 - 5º dia: sem vontade de codar
+- 6º dia: tentar voltar com tudo
