@@ -1,14 +1,23 @@
-import React from 'react' //sempre que usar um jsx eu preciso importar o React
-import { View, Text } from 'react-native'
+import React from 'react'; //sempre que usar um jsx eu preciso importar o React
+import {View, StyleSheet} from 'react-native';
 
-import Primeiro from './components/Primeiro'
-import X, { Comp1, Comp2} from './components/Multi'
+import Primeiro from './components/Primeiro';
+import CompPadrao, {Comp1, Comp2} from './components/Multi';
 
 export default () => (
-    <View>
-        <X />
-        <Comp1 />
-        <Comp2 />
-        <Primeiro />
-    </View>
-)
+  <View style={style.App}>
+    <CompPadrao />
+    <Comp1 />
+    <Comp2 />
+    <Primeiro />
+  </View>
+);
+
+const style = StyleSheet.create({
+  App: {
+    backgroundColor: '#c4c4c4',
+    flexGrow: 1,
+    justifyContent: "center", 
+    alignItems: "center",
+  },
+});
