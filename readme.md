@@ -8,3 +8,4 @@
 - 4º dia: sem commit
 - 5º dia: sem vontade de codar
 - 6º dia: tentar voltar com tudo
+- 7º dia: voltei
