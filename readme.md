@@ -9,3 +9,4 @@
 - 5º dia: sem vontade de codar
 - 6º dia: tentar voltar com tudo
 - 7º dia: voltei
+- 8ª dia: voltei mesmooooo 8 commits já hehehe
