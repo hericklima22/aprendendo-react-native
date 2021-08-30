@@ -7,15 +7,20 @@ import {View, StyleSheet} from 'react-native'
 // import Random from './components/Aleatorio'
 // import Titulo from './components/Titulo'
 // import Botao from './components/Botao'
-import Contador from './components/Contador'
+// import Contador from './components/Contador'
+import Pai from './components/direta/Pai'
 
 
 export default () => (
   <View style={style.App}>
+    <Pai />
+
+
+
     {/* <Botao /> */}
 
-    <Contador inicial={100} passo={10} />
-    <Contador />
+    {/* <Contador inicial={100} passo={10} />
+    <Contador /> */}
 
     {/* <Titulo principal="Cadastro de produto" secundario="Tela de Cadastro" /> */}
 
