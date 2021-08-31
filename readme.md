@@ -10,3 +10,6 @@
 - 6º dia: tentar voltar com tudo
 - 7º dia: voltei
 - 8ª dia: voltei mesmooooo 8 commits já hehehe
+  
+
+vou parar de atualizar o diario pq n tem oq falar kkkkkkkkkkkkk
