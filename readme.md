@@ -12,3 +12,4 @@
 - 8ª dia: voltei mesmooooo 8 commits já hehehe
   
 - Nº dia: to viajando nao posso estudar ainda
+- Nº dia: 
