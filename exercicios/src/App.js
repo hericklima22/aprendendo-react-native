@@ -8,12 +8,17 @@ import {View, StyleSheet} from 'react-native'
 // import Titulo from './components/Titulo'
 // import Botao from './components/Botao'
 // import Contador from './components/Contador'
-import Pai from './components/indireta/Pai'
+// import Pai from './components/indireta/Pai'
+import Contadorv2 from './components/contador/contadorv2'
 
 
 export default () => (
   <View style={style.App}>
-    <Pai />
+
+    <Contadorv2></Contadorv2>
+    
+    
+    {/* <Pai /> */}
 
 
 
