@@ -1,5 +1,6 @@
 import React from 'react' //sempre que usar um jsx eu preciso importar o React
-import {View, StyleSheet} from 'react-native'
+import { StyleSheet} from 'react-native'
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 // import MinMax from "./components/MinMax"
 // import Primeiro from './components/Primeiro'
@@ -10,12 +11,14 @@ import {View, StyleSheet} from 'react-native'
 // import Contador from './components/Contador'
 // import Pai from './components/indireta/Pai'
 // import Contadorv2 from './components/contador/contadorv2'
-import Diferenciar from './components/Diferenciar';
+// import Diferenciar from './components/Diferenciar';
+import ParImpar from './components/ParImpar';
 
 
 export default () => (
-  <View style={style.App}>
-    <Diferenciar />
+  <SafeAreaView style={style.App}>
+    <ParImpar num={2}/>
+    {/* <Diferenciar /> */}
 
     {/* <Contadorv2></Contadorv2> */}
     
@@ -42,7 +45,7 @@ export default () => (
     <Comp1 />
     <Comp2 />
     <Primeiro /> */}
-  </View>
+  </SafeAreaView>
 )
 
 const style = StyleSheet.create({
