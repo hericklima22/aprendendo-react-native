@@ -13,19 +13,22 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 // import Contadorv2 from './components/contador/contadorv2'
 // import Diferenciar from './components/Diferenciar';
 // import ParImpar from './components/ParImpar';
-import Familia from './components/relacao/Familia';
-import Membro from './components/relacao/Membro';
+// import Familia from './components/relacao/Familia';
+// import Membro from './components/relacao/Membro';
+import UsuarioLogado from './components/UsuarioLogado'
 
 
 export default () => (
   <SafeAreaView style={style.App}>
+
+    <UsuarioLogado usuario={ {nome: "Herick", email: "herick@gmail.com"} } />
     
-    <Familia>
+    {/* <Familia>
       <Membro nome="Wesley" sobrenome="Vaz"></Membro>
       <Membro nome="Rosangela" sobrenome="Lima"></Membro>
       <Membro nome="Herick" sobrenome="Lima"></Membro>
       <Membro nome="Herica" sobrenome="Vaz"></Membro>
-    </Familia>
+    </Familia> */}
 
     
     {/* <ParImpar num={2}/> */}
