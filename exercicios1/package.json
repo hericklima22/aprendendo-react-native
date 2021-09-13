@@ -12,7 +12,8 @@
   "dependencies": {
     "@types/react-native": "^0.64.13",
     "react": "17.0.2",
-    "react-native": "0.65.1"
+    "react-native": "0.63.2",
+    "react-native-safe-area-context": "^3.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
