@@ -19,13 +19,13 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 // import ListaProdutos from './components/produtos/ListaProdutos'
 // import ListaProdutosV2 from './components/produtos/ListaProdutosV2'
 // import DigiteSeuNome from './components/DigiteSeuNome'
-import Quadrado from './components/layout/Quadrado'
+// import Quadrado from './components/layout/Quadrado'
+import FlexBoxV1 from './components/layout/FlexBoxV1'
 
 export default () => (
   <SafeAreaView style={style.App}>
-    <Quadrado />
-    <Quadrado cor='#F00' />
-    <Quadrado cor='#FF0' />
+    
+    <FlexBoxV1 />
     
     {/* <DigiteSeuNome /> */}
 
