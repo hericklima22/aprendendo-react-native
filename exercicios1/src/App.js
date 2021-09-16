@@ -17,12 +17,14 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 // import Membro from './components/relacao/Membro';
 // import UsuarioLogado from './components/UsuarioLogado'
 import ListaProdutos from './components/produtos/ListaProdutos'
+import ListaProdutosV2 from './components/produtos/ListaProdutosV2'
 
 
 export default () => (
   <SafeAreaView style={style.App}>
+    <ListaProdutosV2 />
 
-    <ListaProdutos />
+    {/* <ListaProdutos /> */}
 
     {/* <UsuarioLogado usuario={ {nome: "Herick", email: "herick@gmail.com"} } /> */}
     
